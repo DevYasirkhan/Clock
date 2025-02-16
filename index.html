@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+    <title>Clock</title>
+  </head>
+
+  <body>
+    <video src="back-video/bg-video.mp4" autoplay loop class="bg-video"></video>
+    <div class="wrapper">
+      <div class="clock clock-hour">4</div>
+      <div class="clock-colon">:</div>
+      <div class="clock clock-min">27</div>
+      <div class="clock-colon">:</div>
+      <div class="clock clock-sec">10</div>
+      <button class="clock-text">AM</button>
+
+      <div class="inner-box">
+        <div class="day">fri,</div>
+        <div class="date">15</div>
+        <div class="month">February</div>
+        <div class="year">2025</div>
+      </div>
+      <!-- <input type="color" class="color-pick" value="#ffffff" /> -->
+      <div class="color-box">
+        <input type="color" class="colorPicker" />
+        <input
+          type="range"
+          class="alphaSlider"
+          min="0"
+          max="1"
+          step="0.1"
+          value="1"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn-p">+</button>
+        <button class="btn-m">-</button>
+      </div>
+    </div>
+  </body>
+</html>

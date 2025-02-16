@@ -1,0 +1,37 @@
+Task Requirements:
+
+1. Clock Functionality:
+
+Display the current hours, minutes, and optionally seconds in real-time.
+
+Show the current day name (Monday, Tuesday, etc.), date, month, and year.
+
+Implement a 12-hour and 24-hour toggle option (AM/PM for 12-hour mode).
+
+2. UI & Styling:
+
+Ensure a modern, clean, and readable design suitable for a digital display.
+
+Use a dark background with bright-colored digits (like LED or LCD screens).
+
+Add hover effects or animations to make the interface dynamic.
+
+3. Additional Enhancements (Bonus Points):
+
+Smooth transition effects when digits change.
+
+A responsive layout that adapts to different screen sizes.
+
+Allow users to customize colors and font size via simple controls.
+
+Deliverables:
+
+A fully functional digital clock in a single HTML, CSS, and JavaScript project.
+
+Properly structured and commented code for readability.
+
+A short README.md file explaining the implementation details.
+
+Expected Skills:
+
+Basic knowledge of HTML, CSS, and JavaScript (DOM Manipulation &setInterval).

@@ -11,21 +11,29 @@
   </head>
 
   <body>
-    <video src="back-video/bg-video.mp4" autoplay loop class="bg-video"></video>
-    <div class="wrapper">
-      <div class="clock clock-hour">4</div>
-      <div class="clock-colon">:</div>
-      <div class="clock clock-min">27</div>
-      <div class="clock-colon">:</div>
-      <div class="clock clock-sec">10</div>
-      <button class="clock-text">AM</button>
+    <video autoplay muted loop class="bg-video">
+      <source src="bg-video/bg-video.mp4" type="video/mp4" />
+    </video>
 
-      <div class="inner-box">
-        <div class="day">fri,</div>
-        <div class="date">15</div>
-        <div class="month">February</div>
-        <div class="year">2025</div>
+    <div class="container">
+      <div class="wrapper">
+        <div class="clock">
+          <!-- <div class="clock-hour">4</div>
+          <div class="clock-colon">:</div>
+          <div class="clock-min">27</div>
+          <div class="clock-colon">:</div>
+          <div class="clock-sec">10</div> -->
+        </div>
+        <button class="clock-text">PM</button>
+
+        <div class="date-container">
+          <div class="day">fri,</div>
+          <div class="date">15</div>
+          <div class="month">February</div>
+          <div class="year">2025</div>
+        </div>
       </div>
+
       <!-- <input type="color" class="color-pick" value="#ffffff" /> -->
       <div class="color-box">
         <input type="color" class="colorPicker" />
